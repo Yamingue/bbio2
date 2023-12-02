@@ -13,13 +13,18 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>Lorem ipsum dolor sit amet</OverTitle>
-          <SectionTitle>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</SectionTitle>
+          <OverTitle>High-Precision Water Purification Without Chemicals or Electricity</OverTitle>
+          <SectionTitle>
+            Why trust us
+          </SectionTitle>
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda beatae accusamus deleniti nihil quas tempora numquam, vitae
-            culpa.
+            O'Nadif effectively eliminates bacteria, viruses, and other pathogens from contaminated water, achieving an exceptional removal rate of nearly 100% (on average, up to 99.99999%) without the reliance on chemicals or electrical energy.
+            <br />
+            O'Nadif is a compact and portable membrane filtration unit weighing 30 kg. It can filter up to 1100 liters of water per day, often exceeding this capacity to filter as much as 5,000 liters per day.
+            <br />
+            O'Nadif is designed to filter a variety of water sources, including surface water such as rivers, lakes or ponds, as well as groundwater such as wells or springs. It can also be used to filter rainwater, offering versatility in its application to make a variety of water sources potable.
           </Description>
-          <ButtonGroup>
+          {/* <ButtonGroup>
             <NextLink href="#early-access" passHref>
               <Button>
                 Subscribe to the newsletter <span>&rarr;</span>
@@ -30,7 +35,7 @@ export default function Cta() {
                 Features <span>&rarr;</span>
               </OutlinedButton>
             </NextLink>
-          </ButtonGroup>
+          </ButtonGroup> */}
         </Stack>
       </Container>
     </CtaWrapper>
@@ -45,15 +50,15 @@ const Description = styled.div`
 const Stack = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 12.5rem 0;
+  padding: 3.5rem 0;
   color: rgb(var(--textSecondary));
   text-align: center;
   align-items: center;
   justify-content: center;
 
   & > *:not(:first-child) {
-    max-width: 80%;
-    margin-top: 4rem;
+    max-width: 98%;
+    margin-top: 2rem;
   }
 
   ${media('<=tablet')} {

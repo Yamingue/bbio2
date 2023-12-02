@@ -7,6 +7,7 @@ import HeroIllustration from 'components/HeroIllustation';
 import OverTitle from 'components/OverTitle';
 import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { media } from 'utils/media';
+import Image from 'next/image';
 
 export default function Hero() {
   const { setIsModalOpened } = useNewsletterModalContext();
@@ -14,13 +15,11 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <CustomOverTitle>Innovative Water Purification for Crisis Zones & Limited Access Regions</CustomOverTitle>
+        <Heading>O'Nadif</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
-        </Description>
-        <CustomButtonGroup>
+          O'Nadif is an innovative, technology-driven water purification solution designed to meet critical drinking water needs in areas affected by humanitarian crises and regions where access to clean water is limited. Our advanced filtration device uses state-of-the-art ultrafiltration technology, incorporating 30-nanometer filter plates to effectively remove contaminants and pathogens from water. Thanks to its robust, portable design, O'Nadif offers a durable, self-contained solution, guaranteeing rapid access to safe drinking water, while minimizing the environmental footprint. Our commitment to improving the living conditions and health of the most vulnerable communities guides our mission, offering an effective and affordable solution to the global drinking water crisis.</Description>
+        {/* <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
             Subscribe to the newsletter <span>&rarr;</span>
           </Button>
@@ -29,10 +28,12 @@ export default function Hero() {
               Features <span>&rarr;</span>
             </Button>
           </NextLink>
-        </CustomButtonGroup>
+        </CustomButtonGroup> */}
       </Contents>
       <ImageContainer>
-        <HeroIllustration />
+        {/* <Image  width='50%' height='50%' /> */}
+        <img src='/onadif.jpeg' width='80%' />
+        {/* <HeroIllustration /> */}
       </ImageContainer>
     </HeroWrapper>
   );
