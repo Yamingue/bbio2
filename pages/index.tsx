@@ -27,7 +27,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <BasicSection imageUrl="/IMG_5.jpg" title="Vision" overTitle="Empowering Communities Globally with Sustainable Water Solutions">
             Our vision at O&apos;Nadif is to become an essential pillar in solving the global drinking water crisis. We aspire to transform the lives of millions of people living in humanitarian crisis situations and resource-constrained regions, by providing them with reliable and sustainable access to quality drinking water. We envision a world where every individual, regardless of where they live, can benefit from a safe, clean source of water. Through our innovative water filtration technology, we aim to break down the barriers of inaccessibility to drinking water, contributing to the health, stability and prosperity of disadvantaged communities. Our commitment to innovation, sustainability and social impact guides our quest to realize this vision and build a future where access to drinking water is a fundamental right for all.
           </BasicSection>
-          <BasicSection objectFit='contain' imageUrl="/sdg.png" title="O&apos;Nadif & ODD" overTitle="UN Sustainable Development Goal 6 through Innovative Water Solutions" reversed>
+          <BasicSection objectFit='contain' imageUrl="/sdg.png" title="O&apos;Nadif & SDG" overTitle="UN Sustainable Development Goal 6 through Innovative Water Solutions" reversed>
             O&apos;Nadif embodies the vision of the United Nations&apos; Sustainable Development Goal 6, by committing to provide innovative solutions for access to safe drinking water and sanitation. Our mission is to respond to this crucial challenge by offering advanced filtration technology, guaranteeing access to clean water in the world&apos;s most vulnerable regions. By contributing to MDG 6, we are working to ensure equitable and sustainable access to drinking water, supporting the health, well-being and sustainable development of communities. O&apos;Nadif is fully committed to achieving this goal by continually innovating safe and accessible water solutions for all.
           </BasicSection>
           <BasicSection imageUrl="/africa_blem.jpeg" title="Water Crisis in Africa" overTitle="Addressing the Urgent Need for Access to Clean Drinking Water">
@@ -40,7 +40,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <DarkerBackgroundContainer>
           <Cta />
           {/* <FeaturesGallery /> */}
-          <Trusted />
+          {/* <Trusted /> */}
           <Features />
           {/* <Testimonials /> */}
           {/* <ScrollableBlogPosts posts={posts} /> */}

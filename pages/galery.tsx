@@ -24,7 +24,7 @@ export default function Galey() {
     return (
         <Page title="O'NADIF">
             <BasicSection
-                imageUrl="/ODD.PNG"
+                imageUrl="/ODD.png"
                 title="O'NADIF"
                 overTitle="HIGH-PRECISION WATER PURIFICATION WITHOUT CHEMICALS OR ELECTRICITY"
             >
