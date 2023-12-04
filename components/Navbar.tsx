@@ -36,7 +36,7 @@ export default function Navbar({ items }: NavbarProps) {
 
     if (hasRouteChanged) {
       lastRoute.current = routerPath;
-      setScrollingDirection('none');
+      setScrollingDirection('up');
       return;
     }
 
