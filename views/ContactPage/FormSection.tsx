@@ -71,7 +71,12 @@ export default function FormSection() {
             {...register('description', { required: true })}
           />
         </InputStack>
-        <Button as="button" type="submit" disabled={isSubmitDisabled}>
+        <Button
+          as="button"
+          type="submit"
+          //  disabled={isSubmitDisabled}
+          disabled={true}
+        >
           Send Message
         </Button>
       </Form>
