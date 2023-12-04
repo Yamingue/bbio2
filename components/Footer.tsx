@@ -13,8 +13,9 @@ const footerItems: FooterItems = [
   {
     title: 'Contact',
     items: [
-      { title: 'Privacy Policy', href: '/privacy-policy' },
-      { title: 'Cookies Policy', href: '/cookies-policy' },
+      { title: " N'Djamena/Tchad/Quartier Djambal Barh", href: '/#' },
+      { title: 'Contact: contact@onadif.com', href: 'mailto:contact@onadif.com' },
+      { title: 'Tel: +235 65 31 31 52', href: 'tel:+235 65 31 31 52' },
     ],
   },
 ];
