@@ -7,6 +7,7 @@ import type { CustomImage } from "../images"
 import "react-image-lightbox/style.css";
 import BasicSection from 'components/BasicSection';
 import OverTitle from 'components/OverTitle';
+import RichText from 'components/RichText';
 
 export default function Galey() {
     const [index, setIndex] = useState(-1);
@@ -26,6 +27,7 @@ export default function Galey() {
             <BasicSection
                 imageUrl="/ODD.png"
                 title="O'NADIF"
+                objectFit='contain'
                 overTitle="HIGH-PRECISION WATER PURIFICATION WITHOUT CHEMICALS OR ELECTRICITY"
             >
                 <ul>
@@ -50,6 +52,11 @@ export default function Galey() {
                     Our impact
                 </OverTitle>
             </div>
+            <RichText style={{
+                textAlign: 'justify'
+            }}>
+                In partnership with the Citoyens Sans Frontières association, our filtration project, deployed in the village of Biir, located in Koundoul, has had a significant impact. This village, home to around a hundred people, was suffering cruelly from a lack of drinking water, leading to water-borne diseases among vulnerable populations. Since the installation of the filter on October 8, 2023, water quality has improved considerably, reducing the incidence of water-borne diseases among these vulnerable populations. This action contributes to improving the quality of life and health of the inhabitants of Biir
+            </RichText>
             <Gallery
                 images={images}
                 onClick={handleClick}
