@@ -1,13 +1,12 @@
-import styled from 'styled-components';
-import Page from 'components/Page';
-import { media } from 'utils/media';
 import { useState } from 'react';
-import { images, CustomImage } from "../images"
 import { Gallery } from 'react-grid-gallery';
 import Lightbox from 'react-image-lightbox';
+import Page from 'components/Page';
+import { images } from "../images"
+import type { CustomImage } from "../images"
 import "react-image-lightbox/style.css";
 
-export default function galey() {
+export default function Galey() {
     const [index, setIndex] = useState(-1);
 
     const currentImage = images[index];
@@ -46,10 +45,10 @@ export default function galey() {
     );
 }
 
-const ContactContainer = styled.div`
-  display: flex;
+// const ContactContainer = styled.div`
+//   display: flex;
 
-  ${media('<=tablet')} {
-    flex-direction: column;
-  }
-`;
+//   ${media('<=tablet')} {
+//     flex-direction: column;
+//   }
+// `;
