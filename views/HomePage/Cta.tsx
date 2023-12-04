@@ -2,7 +2,7 @@ import NextLink from 'next/link';
 import React from 'react';
 import styled from 'styled-components';
 import Button from 'components/Button';
-import ButtonGroup from 'components/ButtonGroup';
+// import ButtonGroup from 'components/ButtonGroup';
 import Container from 'components/Container';
 import OverTitle from 'components/OverTitle';
 import SectionTitle from 'components/SectionTitle';
@@ -44,6 +44,7 @@ export default function Cta() {
 
 const Description = styled.div`
   font-size: 1.8rem;
+    text-align: justify;
   color: rgba(var(--textSecondary), 0.8);
 `;
 

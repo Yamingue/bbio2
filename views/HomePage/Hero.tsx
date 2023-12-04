@@ -18,7 +18,8 @@ export default function Hero() {
         <CustomOverTitle>Innovative Water Purification for Crisis Zones & Limited Access Regions</CustomOverTitle>
         <Heading>O'Nadif</Heading>
         <Description>
-          O'Nadif is an innovative, technology-driven water purification solution designed to meet critical drinking water needs in areas affected by humanitarian crises and regions where access to clean water is limited. Our advanced filtration device uses state-of-the-art ultrafiltration technology, incorporating 30-nanometer filter plates to effectively remove contaminants and pathogens from water. Thanks to its robust, portable design, O'Nadif offers a durable, self-contained solution, guaranteeing rapid access to safe drinking water, while minimizing the environmental footprint. Our commitment to improving the living conditions and health of the most vulnerable communities guides our mission, offering an effective and affordable solution to the global drinking water crisis.</Description>
+          O'Nadif is an innovative, technology-driven water purification solution designed to meet critical drinking water needs in areas affected by humanitarian crises and regions where access to clean water is limited. Our advanced filtration device uses state-of-the-art ultrafiltration technology, incorporating 30-nanometer filter plates to effectively remove contaminants and pathogens from water. Thanks to its robust, portable design, O'Nadif offers a durable, self-contained solution, guaranteeing rapid access to safe drinking water, while minimizing the environmental footprint. Our commitment to improving the living conditions and health of the most vulnerable communities guides our mission, offering an effective and affordable solution to the global drinking water crisis.
+        </Description>
         {/* <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
             Subscribe to the newsletter <span>&rarr;</span>
@@ -86,7 +87,7 @@ const Description = styled.p`
   font-size: 1.8rem;
   opacity: 0.8;
   line-height: 1.6;
-
+  text-align: justify;
   ${media('<=desktop')} {
     font-size: 1.5rem;
   }

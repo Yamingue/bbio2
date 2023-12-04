@@ -11,13 +11,14 @@ export interface BasicSectionProps {
   title: string;
   overTitle: string;
   reversed?: boolean;
+  objectFit?: any
 }
 
-export default function BasicSection({ imageUrl, title, overTitle, reversed, children }: PropsWithChildren<BasicSectionProps>) {
+export default function BasicSection({ imageUrl, title, overTitle, reversed, objectFit = 'cover', children }: PropsWithChildren<BasicSectionProps>) {
   return (
     <BasicSectionWrapper reversed={reversed}>
       <ImageContainer>
-        <NextImage src={imageUrl} alt={title} layout="fill" objectFit="cover" />
+        <NextImage src={imageUrl} alt={title} layout="fill" objectFit={objectFit} />
       </ImageContainer>
       <ContentContainer>
         <CustomOverTitle>{overTitle}</CustomOverTitle>
@@ -34,7 +35,6 @@ const Title = styled.h1`
   line-height: 1.1;
   margin-bottom: 4rem;
   letter-spacing: -0.03em;
-
   ${media('<=tablet')} {
     font-size: 4.6rem;
     margin-bottom: 2rem;

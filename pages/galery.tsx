@@ -5,6 +5,8 @@ import Page from 'components/Page';
 import { images } from "../images"
 import type { CustomImage } from "../images"
 import "react-image-lightbox/style.css";
+import BasicSection from 'components/BasicSection';
+import OverTitle from 'components/OverTitle';
 
 export default function Galey() {
     const [index, setIndex] = useState(-1);
@@ -20,7 +22,34 @@ export default function Galey() {
     const handleMovePrev = () => setIndex(prevIndex);
     const handleMoveNext = () => setIndex(nextIndex);
     return (
-        <Page title="Galery">
+        <Page title="O'NADIF">
+            <BasicSection
+                imageUrl="/ODD.PNG"
+                title="O'NADIF"
+                overTitle="HIGH-PRECISION WATER PURIFICATION WITHOUT CHEMICALS OR ELECTRICITY"
+            >
+                <ul>
+                    <li>0 chemicals used</li>
+                    <li> Simple and robust</li>
+                    <li>Simple and robust</li>
+                    <li> Little or no maintenance required</li>
+                    <li> Designed with illiterate people in mind</li>
+                    <li> Removable</li>
+                    <li>Easy to travel with</li>
+                    <li>Designed for emergencies and disasters</li>
+                </ul>
+
+            </BasicSection>
+            <div style={{
+                // display: 'flex',
+                textAlign: 'center',
+                margin: '3em'
+
+            }}>
+                <OverTitle>
+                    Our impact
+                </OverTitle>
+            </div>
             <Gallery
                 images={images}
                 onClick={handleClick}

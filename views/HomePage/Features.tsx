@@ -38,7 +38,7 @@ export default function Features() {
   return (
     <Container>
       <OverTitle style={{ textAlign: 'center', marginBottom: 20 }}>
-        NOTRE DOMAINE D’INTERVENTION
+        OUR FIELDS OF INTERVENTION
       </OverTitle>
       <CustomAutofitGrid>
         {FEATURES.map((singleFeature, idx) => (

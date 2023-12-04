@@ -21,7 +21,7 @@ import { NavItems } from 'types';
 const navItems: NavItems = [
   { title: 'Home', href: '/' },
   { title: 'Team', href: '/team' },
-  { title: 'Galery', href: '/galery' },
+  { title: "O'NADIF", href: '/galery' },
   { title: 'Contact', href: '/contact' },
   // { title: 'Sign up', href: '/sign-up', outlined: true },
 ];
@@ -35,6 +35,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
         {/* <link rel="alternate" type="application/rss+xml" href={EnvVars.URL + 'rss'} title="RSS 2.0" /> */}
         {/* <script
           dangerouslySetInnerHTML={{

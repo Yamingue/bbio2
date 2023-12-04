@@ -7,21 +7,19 @@ import Container from 'components/Container';
 import { media } from 'utils/media';
 
 const PARTNER_LOGOS = [
-  'p1.jpeg',
-  'p2.jpeg',
-  'p1.jpeg',
-  'p2.jpeg',
-  'p1.jpeg',
-  'p2.jpeg',
-  'p1.jpeg',
-  'p2.jpeg',
-  'p1.jpeg',
+  'logoipsum-logo-3.svg',
+  'logoipsum-logo-4.svg',
+  'logoipsum-logo-5.svg',
+  'logoipsum-logo-6.svg',
+  'logoipsum-logo-7.svg',
+  'logoipsum-logo-4.svg',
+  'logoipsum-logo-5.svg',
 ];
 
-export default function Partners() {
+export default function Trusted() {
   return (
     <PartnersWrapper>
-      <Title>official partners with</Title>
+      <Title>They trusted us</Title>
       <Swiper
         modules={[Autoplay]}
         slidesPerView={6}
