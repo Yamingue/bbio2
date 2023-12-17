@@ -33,7 +33,6 @@ export default function Galey() {
                 <ul>
                     <li>0 chemicals used</li>
                     <li> Simple and robust</li>
-                    <li>Simple and robust</li>
                     <li> Little or no maintenance required</li>
                     <li> Designed with illiterate people in mind</li>
                     <li> Removable</li>
