@@ -25,7 +25,7 @@ export default function Galey() {
     return (
         <Page title="B-Bio production">
             <BasicSection
-                imageUrl="/ODD.png"
+                imageUrl="/galery/g1.jpeg"
                 title="Proposition de valeur"
                 objectFit="contain"
                 overTitle="HIGH-PRECISION WATER PURIFICATION WITHOUT CHEMICALS OR ELECTRICITY"

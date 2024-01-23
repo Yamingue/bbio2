@@ -18,8 +18,8 @@ export default function Cta() {
             Pourquoi nous faire confiance?
           </SectionTitle>
           <Description>
-            En 3 ans, nous avons créé 4 emplois direct et plus de 20 emplois non qualifiés (main d&apos;œuvre)
-            avec un chiffre d&apos;affaires de plus de 6 millions en d&apos;année 2022.
+
+          Nous démontrons un fort impact positif sur les communautés agricoles locales en offrant des semences de qualité supérieure, des pratiques agricoles responsables, et en établissant des partenariats solides avec les agriculteurs locaux
           </Description>
           {/* <ButtonGroup>
             <NextLink href="#early-access" passHref>

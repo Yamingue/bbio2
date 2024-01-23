@@ -69,7 +69,7 @@ export default function Navbar({ items }: NavbarProps) {
       <Content>
         <NextLink href="/" passHref>
           <LogoWrapper>
-            <Image src='/logo_onadif.png' width={50} height={50} alt='onadif' />
+            <Image src='/home/logo.jpg' width={50} height={50} alt='onadif' />
             {/* <Logo /> */}
           </LogoWrapper>
         </NextLink>
