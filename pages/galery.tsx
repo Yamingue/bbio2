@@ -23,21 +23,20 @@ export default function Galey() {
     const handleMovePrev = () => setIndex(prevIndex);
     const handleMoveNext = () => setIndex(nextIndex);
     return (
-        <Page title="O'NADIF">
+        <Page title="B-Bio production">
             <BasicSection
                 imageUrl="/ODD.png"
-                title="O'NADIF"
+                title="Proposition de valeur"
                 objectFit='contain'
                 overTitle="HIGH-PRECISION WATER PURIFICATION WITHOUT CHEMICALS OR ELECTRICITY"
             >
                 <ul>
-                    <li>0 chemicals used</li>
-                    <li> Simple and robust</li>
-                    <li> Little or no maintenance required</li>
-                    <li> Designed with illiterate people in mind</li>
-                    <li> Removable</li>
-                    <li>Easy to travel with</li>
-                    <li>Designed for emergencies and disasters</li>
+                    <li>Semences de Qualité Supérieure</li>
+                    <li>Variétés Adaptées à la Région</li>
+                    <li>Pratiques Durables</li>
+                    <li>Conseils Agricoles Personnalisés</li>
+                    <li>Partenaire de Confiance</li>
+                    <li>Engagement envers la Durabilité Environnementale</li>
                 </ul>
 
             </BasicSection>
@@ -48,13 +47,18 @@ export default function Galey() {
 
             }}>
                 <OverTitle>
-                    Our impact
+                    Notre impact
                 </OverTitle>
             </div>
             <RichText style={{
                 textAlign: 'justify'
             }}>
-                In partnership with the Citoyens Sans Frontières association, our filtration project, deployed in the village of Biir, located in Koundoul, has had a significant impact. This village, home to around a hundred people, was suffering cruelly from a lack of drinking water, leading to water-borne diseases among vulnerable populations. Since the installation of the filter on October 8, 2023, water quality has improved considerably, reducing the incidence of water-borne diseases among these vulnerable populations. This action contributes to improving the quality of life and health of the inhabitants of Biir
+                En 3 ans, nous avons créé 4 emplois direct et plus de 20 emplois non qualifiés (main d&apos;œuvre)
+                avec un chiffre d&apos;affaires de plus de 6 millions en d&apos;année 2022.
+                Nous produisons sur 10 hectares avec les techniques de production agro écologique. Plus de
+                400 agriculteurs dont 60% des femmes sont accompagnés. Notre cible principale c&apos;est les petits
+                agriculteurs c&apos;est-à-dire les producteurs ayant une capacité de production à comprise en 0.5
+                hectare et 2 hectares.
             </RichText>
             <Gallery
                 images={images}

@@ -13,9 +13,9 @@ const footerItems: FooterItems = [
   {
     title: 'Contact',
     items: [
-      { title: " N'Djamena/Tchad/Quartier Djambal Barh", href: '/#' },
-      { title: 'Contact: contact@onadif.com', href: 'mailto:contact@onadif.com' },
-      { title: 'Tel: +235 65 31 31 52', href: 'tel:+235 65 31 31 52' },
+      { title: " N'Djamena/Tchad/Quartier Kamda", href: '/#' },
+      { title: 'Contact: fermebioproduction@gmail.com', href: 'mailto:fermebioproduction@gmail.com' },
+      { title: 'Tel: +235 63 50 78 11', href: 'tel:+235 63 50 78 11' },
     ],
   },
 ];
@@ -31,19 +31,19 @@ export default function Footer() {
         </ListContainer>
         <BottomBar>
           <ShareBar>
-            <NextLink href="https://www.twitter.com/my-saas-startup" passHref>
+            <NextLink href="#" passHref>
               <TwitterIcon size={50} round={true} />
             </NextLink>
 
-            <NextLink href="https://www.facebook.com/my-saas-startup" passHref>
+            <NextLink href="https://www.facebook.com/profile.php?id=100066467299110" passHref>
               <FacebookIcon size={50} round={true} />
             </NextLink>
 
-            <NextLink href="https://www.linkedin.com/my-saas-startup" passHref>
+            <NextLink href="#" passHref>
               <LinkedinIcon size={50} round={true} />
             </NextLink>
           </ShareBar>
-          <Copyright>&copy; Copyright 2023 O&apos;Nadif</Copyright>
+          <Copyright>&copy; Copyright {new Date().getFullYear()} B-BIO PRODUCTION</Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>

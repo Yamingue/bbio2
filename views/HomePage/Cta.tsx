@@ -15,14 +15,11 @@ export default function Cta() {
         <Stack>
           <OverTitle>High-Precision Water Purification Without Chemicals or Electricity</OverTitle>
           <SectionTitle>
-            Why trust us
+            Pourquoi nous faire confiance?
           </SectionTitle>
           <Description>
-            O'Nadif effectively eliminates bacteria, viruses, and other pathogens from contaminated water, achieving an exceptional removal rate of nearly 100% (on average, up to 99.99999%) without the reliance on chemicals or electrical energy.
-            <br />
-            O'Nadif is a compact and portable membrane filtration unit weighing 30 kg. It can filter up to 1100 liters of water per day, often exceeding this capacity to filter as much as 5,000 liters per day.
-            <br />
-            O'Nadif is designed to filter a variety of water sources, including surface water such as rivers, lakes or ponds, as well as groundwater such as wells or springs. It can also be used to filter rainwater, offering versatility in its application to make a variety of water sources potable.
+            En 3 ans, nous avons créé 4 emplois direct et plus de 20 emplois non qualifiés (main d&apos;œuvre)
+            avec un chiffre d&apos;affaires de plus de 6 millions en d&apos;année 2022.
           </Description>
           {/* <ButtonGroup>
             <NextLink href="#early-access" passHref>

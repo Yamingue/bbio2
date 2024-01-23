@@ -8,29 +8,24 @@ import OverTitle from 'components/OverTitle';
 
 const FEATURES = [
   {
-    imageUrl: '/grid-icons/rural-house-with-wind-mill-svgrepo-com.svg',
-    title: 'Rural communities.',
-    description: "Meeting drinking water needs in rural areas where access to safe water sources is limited."
+    imageUrl: '/activites/undraw_gardening_re_e658.svg',
+    title: 'Agriculture durable.',
+    description: "Mettre en place des pratiques agricoles durables pour minimiser notre impact sur l'environnement."
   },
   {
-    imageUrl: '/grid-icons/undraw_medicine_b-1-ol.svg',
-    title: 'Schools and health centers.',
-    description: "Ensuring a reliable supply of drinking water in educational institutions and health facilities."
+    imageUrl: '/activites/undraw_collaboration_re_vyau.svg',
+    title: "Partenariats",
+    description: "Établir des partenariats avec des agriculteurs locaux pour les aider à améliorer leur rendement et leur rentabilité en utilisant nos semences de qualité supérieure."
   },
   {
-    imageUrl: '/grid-icons/undraw_explore_re_8l4v.svg',
-    title: 'Expeditions and outdoor activities.',
-    description: "Providing a safe source of water for expeditions in the open air or in remote areas."
+    imageUrl: '/activites/undraw_in_progress_re_m1l6.svg',
+    title: 'Extension de production.',
+    description: "Étendre notre production de semences dans les années à venir pour répondre à la demande croissante des agriculteurs locaux."
   },
   {
-    imageUrl: '/grid-icons/ambulance-svgrepo-com.svg',
-    title: 'Emergency humanitarian aid.',
-    description: "Provision of drinking water in areas affected by natural disasters or conflict."
-  },
-  {
-    imageUrl: '/grid-icons/undraw_camping_noc8.svg',
-    title: 'Refugee camps.',
-    description: "Installation to guarantee a safe supply of drinking water in refugee camps."
+    imageUrl: '/activites/undraw_for_review_eqxk.svg',
+    title: 'Contrôle qualité.',
+    description: "Maintenir un contrôle qualité strict pour assurer la qualité constante de nos semences."
   }
 ];
 
@@ -38,7 +33,7 @@ export default function Features() {
   return (
     <Container>
       <OverTitle style={{ textAlign: 'center', marginBottom: 20 }}>
-        OUR FIELDS OF INTERVENTION
+        Nos axes d&apos;interventions
       </OverTitle>
       <CustomAutofitGrid>
         {FEATURES.map((singleFeature, idx) => (

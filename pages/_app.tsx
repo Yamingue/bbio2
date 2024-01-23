@@ -20,8 +20,8 @@ import { NavItems } from 'types';
 
 const navItems: NavItems = [
   { title: 'Home', href: '/' },
-  { title: 'Team', href: '/team' },
-  { title: "O'NADIF", href: '/galery' },
+  { title: 'Nos services', href: '/service' },
+  { title: "Impact", href: '/galery' },
   { title: 'Contact', href: '/contact' },
   // { title: 'Sign up', href: '/sign-up', outlined: true },
 ];

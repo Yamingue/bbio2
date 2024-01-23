@@ -15,10 +15,10 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>Innovative Water Purification for Crisis Zones & Limited Access Regions</CustomOverTitle>
-        <Heading>O'Nadif</Heading>
+        <CustomOverTitle>A Propos de La Ferme B-Bio Production</CustomOverTitle>
+        <Heading>B-BIO</Heading>
         <Description>
-          O'Nadif is an innovative, technology-driven water purification solution designed to meet critical drinking water needs in areas affected by humanitarian crises and regions where access to clean water is limited. Our advanced filtration device uses state-of-the-art ultrafiltration technology, incorporating 30-nanometer filter plates to effectively remove contaminants and pathogens from water. Thanks to its robust, portable design, O'Nadif offers a durable, self-contained solution, guaranteeing rapid access to safe drinking water, while minimizing the environmental footprint. Our commitment to improving the living conditions and health of the most vulnerable communities guides our mission, offering an effective and affordable solution to the global drinking water crisis.
+        La Ferme B-Bio Production est spécialisée dans production et multiplication de semences. Notre startup vise à répondre à la demande croissante de semences de qualité pour les agriculteurs locaux. Nous produisons la variété de semences pour les cultures les plus courantes dans la région, à savoir : la semence d&apos;arachide, la semence du riz et la semence du sésame. Nous produisons les semences de type pré base R1 et R2.
         </Description>
         {/* <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
