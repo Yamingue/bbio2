@@ -1,13 +1,13 @@
-import { useState } from 'react';
-import { Gallery } from 'react-grid-gallery';
-import Lightbox from 'react-image-lightbox';
-import Page from 'components/Page';
-import { images } from "../images"
+import { useState } from "react";
+import { Gallery } from "react-grid-gallery";
+import Lightbox from "react-image-lightbox";
+import BasicSection from "components/BasicSection";
 import type { CustomImage } from "../images"
 import "react-image-lightbox/style.css";
-import BasicSection from 'components/BasicSection';
-import OverTitle from 'components/OverTitle';
-import RichText from 'components/RichText';
+import OverTitle from "components/OverTitle";
+import RichText from "components/RichText";
+import Page from "components/Page";
+import { images } from "../images"
 
 export default function Galey() {
     const [index, setIndex] = useState(-1);
@@ -27,7 +27,7 @@ export default function Galey() {
             <BasicSection
                 imageUrl="/ODD.png"
                 title="Proposition de valeur"
-                objectFit='contain'
+                objectFit="contain"
                 overTitle="HIGH-PRECISION WATER PURIFICATION WITHOUT CHEMICALS OR ELECTRICITY"
             >
                 <ul>
@@ -41,9 +41,9 @@ export default function Galey() {
 
             </BasicSection>
             <div style={{
-                // display: 'flex',
-                textAlign: 'center',
-                margin: '3em'
+                // display: "flex",
+                textAlign: "center",
+                margin: "3em"
 
             }}>
                 <OverTitle>
@@ -51,7 +51,7 @@ export default function Galey() {
                 </OverTitle>
             </div>
             <RichText style={{
-                textAlign: 'justify'
+                textAlign: "justify"
             }}>
                 En 3 ans, nous avons créé 4 emplois direct et plus de 20 emplois non qualifiés (main d&apos;œuvre)
                 avec un chiffre d&apos;affaires de plus de 6 millions en d&apos;année 2022.
@@ -87,7 +87,7 @@ export default function Galey() {
 // const ContactContainer = styled.div`
 //   display: flex;
 
-//   ${media('<=tablet')} {
+//   ${media("<=tablet")} {
 //     flex-direction: column;
 //   }
 // `;

@@ -8,7 +8,6 @@ import Cta from "views/HomePage/Cta";
 import Features from "views/HomePage/Features";
 import Hero from "views/HomePage/Hero";
 import Partners from "views/HomePage/Partners";
-import Trusted from "views/HomePage/Trusted";
 
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
@@ -25,9 +24,9 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <Hero />
           <Partners />
           <BasicSection imageUrl="/IMG_5.jpg" title="Nos objectifs" overTitle="Empowering Communities Globally with Sustainable Water Solutions">
-            L&apos;objectif général de notre startup spécialisé dans la production et multiplication de semences est de fournir des semences de qualité supérieure aux agriculteurs locaux, afin d'améliorer leur rendement et leur rentabilité.
+            L&apos;objectif général de notre startup spécialisé dans la production et multiplication de semences est de fournir des semences de qualité supérieure aux agriculteurs locaux, afin d&apos;améliorer leur rendement et leur rentabilité.
           </BasicSection>
-          <BasicSection objectFit='contain' imageUrl="/sdg.png" title="Pourquoi B-Bio ?" overTitle="UN Sustainable Development Goal 6 through Innovative Water Solutions" reversed>
+          <BasicSection objectFit="contain" imageUrl="/sdg.png" title="Pourquoi B-Bio ?" overTitle="UN Sustainable Development Goal 6 through Innovative Water Solutions" reversed>
             La zone méridionale du Tchad dispose d&apos;énormes atouts tant climatiques que pédologiques
             pour assurer l&apos;autosuffisance alimentaire. Mais beaucoup de difficultés entravent l&apos;émergence
             d&apos;une agriculture autosuffisante et la population agricole est exposée à l&apos;insécurité alimentaire.
@@ -38,10 +37,10 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           </BasicSection>
           <BasicSection imageUrl="/africa_blem.jpeg" title="Notre vision" overTitle="Notre vision">
             La vision de la startup Ferme B-Bio Production est de fournir des semences de
-            qualité supérieure aux agriculteurs locaux, afin d'améliorer leur rendement et leur rentabilité.
-            Nous faisons également la promotion des pratiques agricoles durables pour minimiser l'impact
+            qualité supérieure aux agriculteurs locaux, afin d&apos;améliorer leur rendement et leur rentabilité.
+            Nous faisons également la promotion des pratiques agricoles durables pour minimiser l&apos;impact
             N° RCCM TC-MOU-2020/A/003, E-mail : fermebioproduction@gmail.com Tel : 63507811
-            sur l'environnement en produisant 100% Bio sans apport des engrais et des pesticides
+            sur l&apos;environnement en produisant 100% Bio sans apport des engrais et des pesticides
             chimiques.
           </BasicSection>
         </WhiteBackgroundContainer>
