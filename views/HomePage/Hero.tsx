@@ -33,7 +33,7 @@ export default function Hero() {
       </Contents>
       <ImageContainer>
         {/* <Image  width='50%' height='50%' /> */}
-        <img src='/a_propos.jpeg' width='80%' />
+        <img src='/galery/g1.jpeg' width='80%' />
         {/* <HeroIllustration /> */}
       </ImageContainer>
     </HeroWrapper>

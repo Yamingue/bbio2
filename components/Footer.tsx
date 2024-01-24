@@ -13,7 +13,7 @@ const footerItems: FooterItems = [
   {
     title: 'Contact',
     items: [
-      { title: " N'Djamena/Tchad/Quartier Kamda", href: '/#' },
+      { title: "Moundoun-Tchad", href: '/#' },
       { title: 'Contact: fermebioproduction@gmail.com', href: 'mailto:fermebioproduction@gmail.com' },
       { title: 'Tel: +235 63 50 78 11', href: 'tel:+235 63 50 78 11' },
     ],

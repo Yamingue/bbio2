@@ -13,7 +13,7 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>High-Precision Water Purification Without Chemicals or Electricity</OverTitle>
+          {/* <OverTitle>High-Precision Water Purification Without Chemicals or Electricity</OverTitle> */}
           <SectionTitle>
             Pourquoi nous faire confiance?
           </SectionTitle>

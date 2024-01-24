@@ -7,15 +7,15 @@ import Container from 'components/Container';
 import { media } from 'utils/media';
 
 const PARTNER_LOGOS = [
-  'p1.jpeg',
-  'p2.jpeg',
-  'p1.jpeg',
-  'p2.jpeg',
-  'p1.jpeg',
-  'p2.jpeg',
-  'p1.jpeg',
-  'p2.jpeg',
-  'p1.jpeg',
+  'p1.png',
+  'p2.png',
+  'p3.jpg',
+  'p1.png',
+  'p2.png',
+  'p3.jpg',
+  'p1.png',
+  'p2.png',
+  'p3.jpg',
 ];
 
 export default function Partners() {
